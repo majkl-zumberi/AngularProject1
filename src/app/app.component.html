@@ -1,5 +1,12 @@
+si preferisce interpolazione
 <p>{{title}}</p>
 <p>somma: {{1+1+getVal()}}:da interpolazione</p>
 <p [innerHTML]="title"> da property binding</p>
 <div>{{HTMLString}}</div>
 <div [innerHTML]="HTMLString"></div>
+si preferisce la property
+<a href="{{linkUrl}}">link</a>
+<br>
+<a [href]="linkUrl">link da property</a>
+<br>
+<a [href]="'https://google.it'">link da property con stringa</a>
