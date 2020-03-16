@@ -6,10 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'AngularProject1';
-  getVal(){
-    return 2;
-  }
-  HTMLString='<div><p>Prova</p></div>';
-  linkUrl="https://google.it";
+
+  title = 'Titolo';
 }
