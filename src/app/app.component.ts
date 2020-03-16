@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularProject1';
+  getVal(){
+    return 2;
+  }
+  HTMLString='<div><p>Prova</p></div>';
 }
